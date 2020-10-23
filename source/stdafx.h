@@ -22,7 +22,7 @@
 #include <game_sa/CPools.h>
 #include <game_sa/CMenuManager.h>
 #include <game_sa/CText.h>
-#include <game_sa/CRGBA.h>
+#include <game/CRGBA.h>
 #include <game_sa/cHandlingDataMgr.h>
 #include <game_sa/CPlayerPed.h>
 #include <game_sa/CRadar.h>
@@ -37,12 +37,13 @@ enum CLEO_Version
     CLEO_VER_4_MIN = 0x0400,
     CLEO_VER_4_2 = 0x0402,
     CLEO_VER_4_3 = 0x0403,
-    CLEO_VER_4 = CLEO_VER_4_3,
+    CLEO_VER_4_4 = 0x0404,
+    CLEO_VER_4 = CLEO_VER_4_4,
 
     CLEO_VERSION = CLEO_VER_4,
 };
-#define VERSION_LONG		0x04032400
-#define VERSION_STRING	"4.3.24"
+#define VERSION_LONG		0x04040000
+#define VERSION_STRING	"4.4.0"
 
 #define CPOOL_USE_HANDLE_ACCESS
 

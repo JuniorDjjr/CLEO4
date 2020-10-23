@@ -1,13 +1,13 @@
 /*
-	CLEO 4.3 header file;
+	CLEO 4.4 header file;
 	Copyright (c) 2020 Alien, Deji, Junior_Djjr;
 */
 #pragma once
 
 #include <wtypes.h>
 
-#define CLEO_VERSION 0x04032400
-#define CLEO_VERSIONTEXT "4.3.24"
+#define CLEO_VERSION 0x04040000
+#define CLEO_VERSIONTEXT "4.4.0"
 
 //result of CLEO_GetGameVersion()
 #define GV_US10 0	//1.0 us
